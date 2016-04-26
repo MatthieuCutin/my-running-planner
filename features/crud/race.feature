@@ -37,7 +37,7 @@ Feature: Race
     And the header "Content-Type" should be equal to "application/json"
 
   @dropSchema
-  Scenario: Get next Race NOK
+  Scenario: Get next Race OK
     When after authentication with method "POST" on "login_check" as "matthieu.cutin@acseo-conseil.fr" with password "acseo", i send an authenticated "GET" request to "/races/next/2016-02-25T19:00:00+00:00" with body:
     Then the response status code should be 200
     And the response should be in JSON
