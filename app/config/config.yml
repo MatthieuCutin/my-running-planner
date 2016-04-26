@@ -67,6 +67,10 @@ swiftmailer:
 dunglas_api:
     title:       "%api_name%"
     description: "%api_description%"
+    collection:
+        pagination:
+            items_per_page:
+                number: 5                    # The default number of items perm page in collections.
 
 # Nelmio CORS
 nelmio_cors:
