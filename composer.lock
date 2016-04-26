@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "50717812b6f074312a7225098a244f54",
-    "content-hash": "b1af79f20d4782e3952b1534b40c9497",
+    "hash": "234ea3be204530a5519cab43262fa6df",
+    "content-hash": "a0ad360b4dd939247d871383a6258ee0",
     "packages": [
         {
             "name": "behat/behat",
@@ -781,7 +781,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/doctrine/DoctrineCacheBundle/zipball/9b7b22cea3aaaf6d53088c46a2cb08801ea38ace",
-                "reference": "e4b6f810aa047f9cbfe41c3d6a3d7e83d7477a9d",
+                "reference": "9b7b22cea3aaaf6d53088c46a2cb08801ea38ace",
                 "shasum": ""
             },
             "require": {
@@ -1475,7 +1475,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSUserBundle/zipball/16b04c49af05dd3fb381e4abe04f0e5e231ac76d",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSUserBundle/zipball/e770bfa2fd0fc665f55cd7cfeb34bddeffb892f4",
                 "reference": "e770bfa2fd0fc665f55cd7cfeb34bddeffb892f4",
                 "shasum": ""
             },
@@ -2299,7 +2299,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nelmio/NelmioApiDocBundle/zipball/2d214fc93464e59ea817ef2ea5a8388eef84be3c",
+                "url": "https://api.github.com/repos/nelmio/NelmioApiDocBundle/zipball/874c8752e6114fd2d384d93d48e859a680f2ae9d",
                 "reference": "874c8752e6114fd2d384d93d48e859a680f2ae9d",
                 "shasum": ""
             },
@@ -4516,6 +4516,61 @@
             ],
             "description": "This bundle generates code for you",
             "time": "2015-03-17 06:36:52"
+        },
+        {
+            "name": "webonaute/doctrine-fixtures-generator-bundle",
+            "version": "dev-master",
+            "target-dir": "Webonaute/DoctrineFixturesGeneratorBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Webonaute/DoctrineFixturesGeneratorBundle.git",
+                "reference": "ab9c5b0dce258bafb93b4270a469255a9372f5e3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Webonaute/DoctrineFixturesGeneratorBundle/zipball/ab9c5b0dce258bafb93b4270a469255a9372f5e3",
+                "reference": "ab9c5b0dce258bafb93b4270a469255a9372f5e3",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": ">=1.2",
+                "doctrine/doctrine-fixtures-bundle": ">=2.2",
+                "doctrine/orm": ">=2.2",
+                "php": ">=5.3.3",
+                "sensio/generator-bundle": ">=2.3",
+                "symfony/framework-bundle": ">=2.3"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Webonaute\\DoctrineFixturesGeneratorBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mathieu Delisle",
+                    "email": "mdelisle@webonaute.ca"
+                }
+            ],
+            "description": "Generate Fixture from your existing data in your database. You can specify the Entity name and the IDs you want to import in your fixture.",
+            "keywords": [
+                "Fixture",
+                "Symfony2",
+                "database",
+                "development",
+                "doctrine",
+                "doctrine2",
+                "dumper",
+                "generator",
+                "migration",
+                "symfony",
+                "tests"
+            ],
+            "time": "2016-02-19 16:59:55"
         }
     ],
     "aliases": [],
@@ -4523,7 +4578,8 @@
     "stability-flags": {
         "nelmio/api-doc-bundle": 20,
         "friendsofsymfony/user-bundle": 20,
-        "behatch/contexts": 20
+        "behatch/contexts": 20,
+        "webonaute/doctrine-fixtures-generator-bundle": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
